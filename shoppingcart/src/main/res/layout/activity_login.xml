@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/tim_title"
+        android:layout_width="435dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/tim" />
+
+    <EditText
+        android:id="@+id/et_l_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#fff"
+        android:background="@drawable/textview_style"
+        android:drawableLeft="@drawable/icons_user" />
+    <EditText
+        android:id="@+id/et_l_password"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:layout_marginRight="45dp"
+
+        android:drawableLeft="@drawable/icons_lock"
+        android:background="@drawable/textview_style"/>
+
+    <Button
+        android:id="@+id/btn_l_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_style"
+        android:text="登    录"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/btn_l_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:text="注册账号"
+        android:textColor="#3F51B5"
+        android:textSize="20dp" />
+</LinearLayout>
